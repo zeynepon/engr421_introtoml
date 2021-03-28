@@ -95,8 +95,6 @@ while iteration < max_iteration:
 test_predicted = sigmoid(images_test, W, w0)
 
 # objective function plotted
-print("Plotting objective function\n"
-      "In my computer, the confusion matrices do not appear before closing the objective function plot!")
 plt.figure(figsize=(10, 6))
 plt.plot(range(iteration), objective_function, "k-")
 plt.xlabel("Iteration")
