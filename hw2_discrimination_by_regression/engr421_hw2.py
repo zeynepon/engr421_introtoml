@@ -1,4 +1,4 @@
-"""ENGR 421 - Homework 1
+"""ENGR 421 - Homework 2
     Discrimination by Regression
     Zeynep Öner
     ID: 64912"""
