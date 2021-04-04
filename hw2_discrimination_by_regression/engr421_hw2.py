@@ -77,7 +77,7 @@ while iteration < max_iteration:
     iteration += 1
 
     training_predicted = sigmoid(images_training, W, w0)  # prediction for the training set
-    objective_function.append(-np.sum(Y_truth * safelog(training_predicted)))
+    objective_function.append(0.5 * np.sum(abs(Y_truth - training_predicted)**2))
 
     # temp variables to store the old weight values
     W_temp = W
